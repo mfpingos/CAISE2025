@@ -1,8 +1,7 @@
 # Comprehensive Conceptual Model (CCM) Design and Data Mesh Framework
 
 Welcome to the **Comprehensive Conceptual Model (CCM) Design and Data Mesh Framework** repository. 
-This project outlines a novel framework for building a CCM using raw data and domain knowledge, creating a Data Mesh, and mapping processes to respective domains
-to enhance data analysis and decision-making accuracy.
+This project outlines a novel framework for building a CCM using raw data and domain knowledge, creating a Data Mesh, and mapping processes to respective domains to enhance data analysis and decision-making accuracy.
 
 ## Table of Contents
 
