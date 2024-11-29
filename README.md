@@ -13,6 +13,7 @@ This project outlines a novel framework for building a CCM using raw data and do
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [References](#license)
 
 ---
 
@@ -88,3 +89,12 @@ Events and relationships analyzed to map processes to appropriate domains for ef
 1. Clone the repository:
    ```bash
    git clone https://github.com/mfpingos/LLM-InterProcessMesh.git
+
+## References
+
+### [12]
+Eytan, A., Haller, D.M., Wolff, H., Cerutti, B., Sebo, P., Bertrand, D., Niveau, G.: Psychiatric symptoms, psychological distress and somatic comorbidity among remand prisoners in switzerland. International Journal of Law and Psychiatry 34(1), 13–19 (2011). https://doi.org/https://doi.org/10.1016/j.ijlp.2010.11.003, https://www.sciencedirect.com/science/article/pii/S0160252710001160
+
+### [19]
+Mannhardt, F., Koschmider, A., Baracaldo, N., Weidlich, M., Michael, J.: Privacy- Preserving Process Mining. Business & Information Systems Engineering 61(5), 595–614 (Oct 2019). https://doi.org/10.1007/s12599-019-00613-3
+
