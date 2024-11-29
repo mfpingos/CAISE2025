@@ -25,7 +25,7 @@ The CCM serves as a foundation for designing a **Data Mesh**, enabling domain-sp
 ## Features
 
 1. **CCM Creation**:
-   - Combines raw data from clinical applications with domain knowledge. The Raw Data and Knowledge exist on the github folder.
+   - Combines the raw synthetic data from clinical the afformentioned works with sources knowledge, both of which are available in the GitHub repository under the data/ and knowledge/ folder accordingly.
    - Leverages LLMs to extract entities and relationships for creating an Entity-Relationship Diagram (ERD).
 
 2. **Data Mesh Design**:
