@@ -30,7 +30,7 @@ The CCM serves as a foundation for designing a **Data Mesh**, enabling domain-sp
 
 2. **Data Mesh Design**:
    - Identifies data domains based on business context (the .py code are available in the GitHub repository under the scripts/).
-   - Uses clustering techniques like **TF-IDF vectorization** and **K-Means** to group similar terms into domains.
+   - Uses clustering techniques like **TF-IDF vectorization** and **K-Means** to group similar terms into domains (the .py code are available in the GitHub repository under the scripts/).
 
 3. **Process-to-Domain Mapping**:
    - Maps processes to appropriate domains based on events, entities, and relationships.
@@ -51,7 +51,7 @@ The framework follows these steps:
 4. Design a **Data Mesh** with identified domains and shared entities.
 5. Map processes to appropriate domains for tailored analysis and insights.
 
-For more details, refer to [Fig. 1](#) and the included algorithms in the documentation.
+For more details, refer to [Fig. 1](#) and the included algorithms in the manuscript.
 
 ---
 
