@@ -26,10 +26,10 @@ The CCM serves as a foundation for designing a **Data Mesh**, enabling domain-sp
 
 1. **CCM Creation**:
    - Combines the raw synthetic data from clinical the afformentioned works with sources knowledge and workflows description which are available in the GitHub repository under the data/ , knowledge/ and workflows_description folders accordingly.
-   - Leverages LLMs to extract entities and relationships for creating an Entity-Relationship Diagram (ERD).
+   - Leverages LLMs (the .py code are available in the GitHub repository under the scripts/) to extract entities and relationships for creating an Entity-Relationship Diagram (ERD).
 
 2. **Data Mesh Design**:
-   - Identifies data domains based on business context.
+   - Identifies data domains based on business context (the .py code are available in the GitHub repository under the scripts/).
    - Uses clustering techniques like **TF-IDF vectorization** and **K-Means** to group similar terms into domains.
 
 3. **Process-to-Domain Mapping**:
