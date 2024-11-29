@@ -24,20 +24,30 @@ The CCM serves as a foundation for designing a **Data Mesh**, enabling domain-sp
 
 ## Features
 
-1. **CCM Creation**:
-   - Combines the raw synthetic data from clinical the afformentioned works with sources knowledge and workflows description which are available in the GitHub repository under the data/ , knowledge/ and workflows_description folders accordingly.
-   - Leverages LLMs (the .py code are available in the GitHub repository under the scripts/) to extract entities and relationships for creating an Entity-Relationship Diagram (ERD).
+### Prerequisites
 
-2. **Data Mesh Design**:
-   - Identifies data domains based on business context (the .py code are available in the GitHub repository under the scripts/).
-   - Uses clustering techniques like **TF-IDF vectorization** and **K-Means** to group similar terms into domains (the .py code are available in the GitHub repository under the scripts/).
+Ensure you have the following Python libraries installed before running the project:
 
-3. **Process-to-Domain Mapping**:
-   - Maps processes to appropriate domains based on events, entities, and relationships.
-   - Enhances transparency, efficiency, and decision-making within each domain.
+- **pandas**: For data manipulation and analysis.
+- **numpy**: For numerical computations.
+- **collections**: Provides specialized container datatypes like `Counter` and `defaultdict`.
+- **scikit-learn**:
+  - `TfidfVectorizer`: For vectorizing text data.
+  - `KMeans`: For clustering.
+  - `silhouette_score`: For evaluating clustering performance.
+- **os**: To interact with the operating system.
+- **re**: For regular expression operations.
+- **networkx**: For creating and visualizing graphs.
+- **matplotlib**: For plotting and visualizing data.
+- **pathlib**: For working with file paths.
+- **textwrap**: For formatting text.
+- **xml.etree.ElementTree**: For parsing XML data.
+- **openai**: For accessing OpenAI APIs (e.g., GPT models).
 
-4. **Data Pipeline Design**:
-   - Distributed ETL processes for domain-specific data transformation and integration.
+You can install the required libraries using the following command:
+
+```bash
+pip install pandas numpy scikit-learn networkx matplotlib openai
 
 ---
 
