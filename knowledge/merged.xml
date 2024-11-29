@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sources>
+    <!-- Psychiatric Procedure -->
+    <!-- Admission Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Admission Process Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, DICOM, image files)</Source_Type>
+            <File_Type>PDF, DOCX, XLSX, DICOM</File_Type>
+            <Data_Owner>Primary Health Care Nurse</Data_Owner>
+            <Data_Source_Format>Reports, Medical Records, Excel Sheets</Data_Source_Format>
+            <Data_Classification>Confidential Health Data</Data_Classification>
+            <Data_Integration>Linked to EHR (Electronic Health Records) systems</Data_Integration>
+            <Keywords>Initial Health Assessment, General Medical Conditions Screening, Referral to Physicians, Medical Files Update</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/admission/</Data_Lake_Path>
+            <Update_Frequency>Daily</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Restricted access to medical staff and authorized personnel</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <!-- Health Screening Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Health Screening Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, HL7)</Source_Type>
+            <File_Type>PDF, DOCX, HL7</File_Type>
+            <Data_Owner>Primary Health Care Nurse</Data_Owner>
+            <Data_Source_Format>Health Assessments, Screening Results, Psychiatric Evaluations</Data_Source_Format>
+            <Data_Classification>Confidential Mental Health Data</Data_Classification>
+            <Data_Integration>Linked to EHR and psychiatric treatment systems</Data_Integration>
+            <Keywords>Screening Tools Administration</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/psychiatric_procedure/</Data_Lake_Path>
+            <Update_Frequency>As-needed</Update_Frequency>
+            <Data_Sensitivity>Very High</Data_Sensitivity>
+            <Retention_Policy>7 years</Retention_Policy>
+            <Access_Control>Restricted to psychiatric and medical staff</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <!-- Psychiatric Evaluation Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Psychiatric Evaluation Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, DICOM, HL7)</Source_Type>
+            <File_Type>PDF, DOCX, DICOM, HL7, TXT</File_Type>
+            <Data_Owner>Psychologist</Data_Owner>
+            <Data_Source_Format>Psychiatric Reports, Diagnosis Files</Data_Source_Format>
+            <Data_Classification>Confidential Mental Health Data</Data_Classification>
+            <Data_Integration>Integrated with psychiatric and health information systems</Data_Integration>
+            <Keywords>Psychiatric Evaluation, Mental Disorders Diagnose, Medical Files Update, Treatment Plans's Recommendation</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/psychiatric/</Data_Lake_Path>
+            <Update_Frequency>As-needed</Update_Frequency>
+            <Data_Sensitivity>Very High</Data_Sensitivity>
+            <Retention_Policy>7 years</Retention_Policy>
+            <Access_Control>Strictly controlled, accessible only to mental health professionals</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <!-- Medical Treatment Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Medical Treatment Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, XLSX, DICOM, HL7)</Source_Type>
+            <File_Type>PDF, DOCX, XLSX, DICOM, HL7</File_Type>
+            <Data_Owner>Physician</Data_Owner>
+            <Data_Source_Format>Medical Treatment Records, Prescriptions, Reports</Data_Source_Format>
+            <Data_Classification>Confidential Health Treatment Data</Data_Classification>
+            <Data_Integration>Integrated with Electronic Health Records (EHR)</Data_Integration>
+            <Keywords>Physical Health Conditions' Treatment, Substance Withdrawal Managmenet, Psychotropic Medications Provision, Medical Files Update</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/treatment/</Data_Lake_Path>
+            <Update_Frequency>As-needed</Update_Frequency>
+            <Data_Sensitivity>Very High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Controlled access based on medical and nursing personnel roles</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <!-- Ongoing Monitoring Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Ongoing Monitoring Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, XLSX, DICOM, CSV, HL7)</Source_Type>
+            <File_Type>PDF, XLSX, DICOM, CSV, HL7</File_Type>
+            <Data_Owner>Physician</Data_Owner>
+            <Data_Source_Format>Monitoring Reports, Session Logs, Medical Records</Data_Source_Format>
+            <Data_Classification>Confidential Health Monitoring Data</Data_Classification>
+            <Data_Integration>Integrated with EHR systems and patient tracking software</Data_Integration>
+            <Keywords>Health Check, Medication Adherence Monitoring, Therapy Effectiveness Monitoring, Health Risks Re-Assessment, Medical Files Update</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/monitoring/</Data_Lake_Path>
+            <Update_Frequency>Regular</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Restricted to healthcare staff and authorized medical personnel</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <!-- Discharge or Transfer Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Discharge or Transfer Data</Source_Name>
+            <Source_Type>Unstructured Data (PDF, DOCX, XLSX, DICOM, HL7)</Source_Type>
+            <File_Type>PDF, DOCX, XLSX, DICOM, HL7</File_Type>
+            <Data_Owner>Administrative Staff</Data_Owner>
+            <Data_Source_Format>Discharge Summaries, Transfer Reports, Patient Records</Data_Source_Format>
+            <Data_Classification>Confidential Health Discharge Data</Data_Classification>
+            <Data_Integration>Integrated with transfer systems, healthcare providers, and EHRs</Data_Integration>
+            <Keywords>Health Reports Provision, Discharge Plan Provision, Transfer Plan Provision, Patient Discharge, Patient Transfer, Medical Files Update</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/discharge/</Data_Lake_Path>
+            <Update_Frequency>As-needed</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Restricted access to medical and administrative personnel</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <!-- Prediction and Data Utilization Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Prediction and Data Utilization Data</Source_Name>
+            <Source_Type>Structured Data (Electronic Health Records)</Source_Type>
+            <File_Type>CSV, XLSX, HL7, FHIR</File_Type>
+            <Data_Owner>ED Staff</Data_Owner>
+            <Data_Source_Format>Predictive Models, Patient Data, Disposition Forecasts</Data_Source_Format>
+            <Data_Classification>Confidential Health Data</Data_Classification>
+            <Data_Integration>Integrated with EHR systems, Predictive Analytics Tools</Data_Integration>
+            <Keywords>Admission Prediction Generation, Patient Disposition Communication, Medical Files Update</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/prediction_data/</Data_Lake_Path>
+            <Update_Frequency>Hourly</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>2 years</Retention_Policy>
+            <Access_Control>Restricted to ED and predictive analytics teams</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <!-- Early Task Initiation Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Early Task Initiation Data</Source_Name>
+            <Source_Type>Unstructured Data (Dashboard Data, Alerts)</Source_Type>
+            <File_Type>CSV, JSON, XML</File_Type>
+            <Data_Owner>bed manager</Data_Owner>
+            <Data_Source_Format>Real-time Status Updates, Alerts, Dashboards</Data_Source_Format>
+            <Data_Classification>Confidential Operational Data</Data_Classification>
+            <Data_Integration>Integrated with EHR and hospital communication tools</Data_Integration>
+            <Keywords>Bed Request, Bed Allocation, Bed Preparation, Medical Files Update</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/monitoring_updates/</Data_Lake_Path>
+            <Update_Frequency>Real-time</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>2 years</Retention_Policy>
+            <Access_Control>Accessible by Administration, IT Systems, and Bed Managers</Access_Control>
+        </dynamic_attributes>
+    </source>
+
+    <!-- Patient Transfer Process -->
+    <source>
+        <stable_attributes>
+            <Source_Name>Patient Transfer Data</Source_Name>
+            <Source_Type>Structured Data (Transfer Logs, EHR Data)</Source_Type>
+            <File_Type>CSV, XLSX, HL7</File_Type>
+            <Data_Owner>Inpatient Unit Team</Data_Owner>
+            <Data_Source_Format>Patient Transfer Logs, Bed Assignment Data</Data_Source_Format>
+            <Data_Classification>Confidential Patient Transfer Data</Data_Classification>
+            <Data_Integration>Integrated with EHR and patient transfer systems</Data_Integration>
+            <Keywords>Patient Transfer, Bed Assignment, Medical Files Update</Keywords>
+        </stable_attributes>
+        <dynamic_attributes>
+            <Data_Lake_Path>/datalake/patient_transfer/</Data_Lake_Path>
+            <Update_Frequency>As-needed</Update_Frequency>
+            <Data_Sensitivity>High</Data_Sensitivity>
+            <Retention_Policy>5 years</Retention_Policy>
+            <Access_Control>Restricted to ED Staff, Inpatient Unit Teams</Access_Control>
+        </dynamic_attributes>
+    </source>
+</sources>
