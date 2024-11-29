@@ -10,9 +10,6 @@ This project outlines a novel framework for building a CCM using raw data and do
 - [Workflow](#workflow)
 - [Key Components](#key-components)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [References](#license)
 
 ---
