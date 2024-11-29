@@ -19,9 +19,8 @@ This project outlines a novel framework for building a CCM using raw data and do
 ## Introduction
 
 This repository provides a structured approach to creating a **Comprehensive Conceptual Model (CCM)** using large language models (LLMs) to extract entities and relationships from raw data and domain knowledge. 
-The CCM serves as a foundation for designing a **Data Mesh**, enabling domain-specific data management, improved resource allocation, and tailored performance metrics.
+The CCM serves as a foundation for designing a **Data Mesh**, enabling domain-specific data management, improved resource allocation, and tailored performance metrics. The running example focuses on healthcare workflows such as **Inpatient** and **Psychiatric procedures** as in [12] [19] in manuscript references, illustrating how to structure data and knowledge for analysis.
 
-The running example focuses on healthcare workflows such as **Inpatient** and **Psychiatric procedures**, illustrating how to structure data and knowledge for analysis.
 
 ---
 
